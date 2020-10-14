@@ -6,7 +6,7 @@ class Palette {
   static const Color facebookBlue = Color(0xFF1777F2);
 
   static LinearGradient createRoomGradient = LinearGradient(
-    List: [Color(0xFF496AE1), Color(0xFFCE48B1)],
+    colors: [Color(0xFF496AE1), Color(0xFFCE48B1)],
   );
 
   static const Color online = Color(0xFF4BCB1F);
@@ -14,6 +14,6 @@ class Palette {
   static LinearGradient storyGradient = LinearGradient(
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
-    List: [Colors.transparent, Colors.black26],
+    colors: [Colors.transparent, Colors.black26],
   );
 }
