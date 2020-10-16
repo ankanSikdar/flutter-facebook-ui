@@ -15,6 +15,7 @@ class CustomTabBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TabBar(
+      onTap: onTap,
       indicator: BoxDecoration(
           border: Border(
               top: BorderSide(
